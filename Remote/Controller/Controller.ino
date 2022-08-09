@@ -1,16 +1,16 @@
 /*  Made by: Guilherme Oliveira Rolim Silva
- *  Date: 08/08/2022
+ *  Date: 08/2022
  *  
- *  Sends Springer Silentia air conditioners remote IR codes acording to pre established presets.
- *  By default, Timer signal is sent, but if recieved some of specific NEC commands from a regular 
- *  controller, changes the default signal to be sent and starts sending another code equivalent 
+ *  Sends Springer Silentia air conditioners remote IR codes according to pre-established presets.
+ *  By default, the Timer signal is sent, but if received a specific NEC command from a regular 
+ *  IR remote, changes the default signal to be sent and starts sending another code equivalent 
  *  to the new button. Also sends a 0x000000 code every 350ms after sending a code because of possible 
- *  air conditioners rceiving problems.
+ *  air conditioners receiving problems.
  *  
  *  Made based on:
  *  SimpleSender from IRremote - https://github.com/Arduino-IRremote/Arduino-IRremote
  *  
- *  More info can be found at: Link
+ *  More info can be found at: https://github.com/rolim520/Springer-Silentia-IR-remote
  */
 #include <Arduino.h>
 
