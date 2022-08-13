@@ -14,5 +14,5 @@ Project for using a arduino board as a remote control for Springer silentia air 
 
 ## How it works
 
-It works by periodicly sending a pulse width signal stored in its memory. The signal sent can be changed by using a NEC protocol IR remote to 
+It works by periodicly sending a pulse width signal stored in its memory. The signal sent can be changed by using a NEC protocol IR remote to map signal fro the original springer remote to new NEC commands
 
