@@ -10,4 +10,4 @@ Project for using a arduino board as a remote control for Springer silentia air 
 - Infrared LED and resistor (connected to pin 3)
 - Infrared receiver (connected to pin 2)
 
-![Arduino](/arduino.jpg "Arduino")
+![Arduino](Arduino.jpg "Arduino")
