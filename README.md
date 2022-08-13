@@ -12,3 +12,7 @@ Project for using a arduino board as a remote control for Springer silentia air 
 
 <img align="center" width="700" alt="Arduino" src="Arduino.jpg">
 
+## How it works
+
+It works by periodicly sending a pulse width signal stored in its memory. The signal sent can be changed by using a NEC protocol IR remote to 
+
